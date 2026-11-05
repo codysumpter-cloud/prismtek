@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a reproducible issue in a publicly released Prismtek project
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not include tokens, passwords, account details, or security vulnerability reports. See SECURITY.md for private reporting.
+  - type: input
+    id: project
+    attributes:
+      label: Project and version
+      placeholder: "Armory Buddy 0.x / game version, if applicable"
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Game version, operating system, and other relevant non-sensitive information
+    validations:
+      required: false

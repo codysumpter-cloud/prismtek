@@ -1,0 +1,39 @@
+# Local secrets and private runtime configuration (never rely on this alone)
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*.tfstate
+*.tfstate.*
+*.sqlite
+*.sqlite3
+credentials.json
+service-account.json
+secrets.json
+.npmrc
+.pypirc
+.wrangler/
+.terraform/
+
+# Dependencies, outputs, caches
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+.cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.log
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

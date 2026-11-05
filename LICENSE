@@ -1,0 +1,25 @@
+Prismtek — default repository copyright and licensing notice
+
+Copyright (c) 2026 Cody Sumpter (Prismtek). All rights reserved.
+
+This is a public repository, not a blanket open-source release. Except where
+a particular file, directory, or release explicitly contains or identifies
+a different license, no permission is granted to copy, modify, redistribute,
+sublicense, sell, or rehost the contents.
+
+When a project or file has its own express license, that license applies
+only to the content within its stated scope. Future releases may use approved
+open-source licenses, including MIT, on a project-by-project basis.
+
+Third-party libraries, game assets, artwork, fonts, media, data, names, and
+other content are not relicensed by their appearance or mention here.
+Their owners' licenses and platform terms continue to apply.
+
+The Prismtek name, brand identity, and logos are not licensed as trademarks.
+
+See docs/PUBLISHING.md for how to release and license new public projects.
+For permissions beyond an applicable license, contact Prismtek through
+https://prismtek.dev.
+
+This notice is the repository's default rights-reserved policy; it is not
+an OSI-approved open-source software license.

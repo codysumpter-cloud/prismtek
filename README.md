@@ -1,31 +1,52 @@
 # Prismtek
 
-**Public projects, tools, and game addons by Prismtek.**
+**Public game tools, addons, and companion projects from Prismtek.**
 
-Website: [prismtek.dev](https://prismtek.dev)
+[Website](https://prismtek.dev) · [Project issues](https://github.com/codysumpter-cloud/prismtek/issues) · [Contribution guide](CONTRIBUTING.md) · [Publishing policy](docs/PUBLISHING.md)
 
-This repository is the public-facing home for Prismtek tools intended for players, creators, and the game-modding community. It is separate from Prismtek's private website, production infrastructure, and internal development repositories.
+Prismtek builds practical tools for players and creators: less searching, clearer guidance, and more time enjoying games. This is our **public-facing project repository**, separate from the private codebase that powers prismtek.dev.
 
 ## Projects
 
 ### Armory Buddy — World of Warcraft
 
-Armory Buddy is a planned player companion experience for World of Warcraft, designed to make in-game guidance, character progression, addon compatibility, and useful community information easier to access.
+Armory Buddy is a work-in-progress player companion and addon initiative. Its direction includes personalized progression guidance, gear and profession recommendations, and discoverable addon-related information.
 
-Features and integrations are under development; third-party API access is subject to provider approval.
+**Status: in development.** This repository does not currently contain a released, installable Armory Buddy addon or a working CurseForge integration. Features described here are goals, not shipped functionality. See [the project page](projects/armory-buddy/README.md).
 
-## Future game tools
+### More Prismtek tools
 
-Prismtek may publish additional game addons, companion tools, documentation, and open-source components here. Each release will identify its supported games, licenses, dependencies, and installation instructions.
+We plan to use this repo for approved public addons, companion utilities, documentation, and source releases for additional games. Each published project will state its game/version support, release status, author credits, and specific license.
 
-## CurseForge and third-party content
+## Repository map
 
-Prismtek respects mod authors' rights. Third-party CurseForge-hosted mod files will only be distributed where permission and platform terms allow it. References to CurseForge or other services do not imply endorsement or API approval.
+| Location | Contents |
+| --- | --- |
+| [projects/armory-buddy](projects/armory-buddy/README.md) | Armory Buddy overview and status |
+| [docs/PUBLISHING.md](docs/PUBLISHING.md) | Public-release and third-party content checklist |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution rules |
+| [SECURITY.md](SECURITY.md) | Private vulnerability reporting |
+| [LICENSE](LICENSE) | Default copyright and licensing policy |
 
-## Security and contributions
+## Respecting creators and platforms
 
-Do not commit API keys, access tokens, credentials, private configuration, customer or player data, or proprietary project source. Use issue reports for general feedback; do not post sensitive information in public issues.
+We want to **send players toward the people making great mods**, credit original authors, and link to their official project and support pages.
+
+- We will not mirror or distribute third-party mod files without the necessary permissions.
+- CurseForge API access or distribution rights are **not implied by this repository**. Any integration must comply with current provider terms and the scope of its approval.
+- API keys, secrets, private account information, and proprietary internal source code must never be committed here.
+- Game names and third-party trademarks belong to their respective owners. Prismtek is an independent project, not affiliated with or endorsed by Blizzard, CurseForge, or other game companies.
+
+## Sustainability
+
+We intend to keep core player-facing addons accessible. Prismtek may support development through optional donations, ads, sponsorships, or paid features in our **own** companion services, subject to applicable platform policies. This is a future-facing model, not a claim that any monetization or partnership is active. Third-party files will not be resold or put behind a paywall without authorization.
+
+## Get involved
+
+Open an [issue](https://github.com/codysumpter-cloud/prismtek/issues) to suggest a feature or report a public bug. Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing source changes. Please do **not** publish exploit details or secrets in issues; see [SECURITY.md](SECURITY.md).
 
 ## Licensing
 
-No blanket license is granted for the contents of this repository. Any public code or assets added later will carry an explicit license or permission notice.
+**Public visibility is not the same as open-source licensing.** By default, the material in this umbrella repository is rights-reserved. Individual future code or asset releases can be made MIT, Apache-2.0, GPL, CC0, or another appropriate license **only when explicitly marked**; third-party materials keep their own terms. See [LICENSE](LICENSE) and [docs/PUBLISHING.md](docs/PUBLISHING.md).
+
+© 2026 Cody Sumpter / Prismtek.
