@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="assets/prismtek-ascii.svg" alt="Animated ASCII PRISMTEK banner — community-first game tools" width="100%" />
+  <img src="assets/prismtek-ascii.svg" alt="Animated pure-character ASCII PRISMTEK banner and arcade mascot" width="720" />
 </p>
+<p align="center"><a href="assets/prismtek-ascii.txt">View the plain ASCII version</a></p>
 
 # Prismtek
 
