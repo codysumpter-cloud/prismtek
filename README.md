@@ -1,6 +1,10 @@
-<p align="center">
-  <img src="assets/prismtek-ascii.svg" alt="PRISMTEK, animated in pure ASCII characters" width="100%" />
-</p>
+```text
+ ____  ____  ___ ____  __  __ _____ _____ _  __
+|  _ \|  _ \|_ _/ ___||  \/  |_   _| ____| |/ /
+| |_) | |_) || |\___ \| |\/| | | | |  _| | ' /
+|  __/|  _ < | | ___) | |  | | | | |___| . \
+|_|   |_| \_\___|____/|_|  |_| |_| |_____|_|\_\
+```
 
 **Public game tools, addons, and companion projects from Prismtek.**
 
