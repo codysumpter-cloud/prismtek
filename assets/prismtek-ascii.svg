@@ -1,100 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 452" role="img" aria-labelledby="title desc" style="background:transparent">
-<title id="title">Prismtek animated ASCII header</title>
-<desc id="desc">ASCII PRISMTEK wordmark above a tiny arcade-prism mascot cycling through standby, play, build and share expressions. All visible artwork is rendered with monospace text characters.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 172" role="img" aria-labelledby="title desc">
+<title id="title">PRISMTEK</title>
+<desc id="desc">PRISMTEK in genuine animated ASCII letters. A luminous wave runs through the characters from left to right with occasional restrained terminal glitches. No other imagery.</desc>
 <style>
-  .wordmark,.ascii,.caption{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;white-space:pre;font-weight:700}
-  .wordmark{font-size:21px;fill:#184c78}
-  .ascii{font-size:17px;fill:#184c78}
-  .caption{font-size:15px;fill:#008c9f;letter-spacing:.3px}
-  .bob{animation:bob 2.8s ease-in-out infinite}
-  .frame{opacity:0;animation-duration:7.2s;animation-iteration-count:infinite;animation-timing-function:steps(1,end)}
-  .idle{animation-name:idleFrame;opacity:1}
-  .play{animation-name:playFrame}
-  .build{animation-name:buildFrame}
-  .share{animation-name:shareFrame}
-  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
-  @keyframes idleFrame{0%,24.99%{opacity:1}25%,100%{opacity:0}}
-  @keyframes playFrame{0%,24.99%{opacity:0}25%,49.99%{opacity:1}50%,100%{opacity:0}}
-  @keyframes buildFrame{0%,49.99%{opacity:0}50%,74.99%{opacity:1}75%,100%{opacity:0}}
-  @keyframes shareFrame{0%,74.99%{opacity:0}75%,99.99%{opacity:1}100%{opacity:0}}
-  @media (prefers-color-scheme:dark){.wordmark,.ascii{fill:#c8f8ee}.caption{fill:#86dfda}}
-  @media (prefers-reduced-motion:reduce){.bob,.frame{animation:none}.frame{opacity:0}.idle{opacity:1}}
+  .ascii,.echo {font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:30px;font-weight:800;white-space:pre;letter-spacing:0}
+  .ascii{fill:#165a72}
+  .ink{animation:signal 6.8s steps(1,end) infinite}
+  .row{animation:stutter 10.4s steps(1,end) infinite}
+  .row-1{animation-delay:-.07s}.row-2{animation-delay:-.15s}.row-3{animation-delay:-.22s}.row-4{animation-delay:-.3s}
+  .c0{animation-delay:0.000s}
+.c1{animation-delay:0.065s}
+.c2{animation-delay:0.130s}
+.c3{animation-delay:0.195s}
+.c4{animation-delay:0.260s}
+.c5{animation-delay:0.325s}
+.c6{animation-delay:0.390s}
+.c7{animation-delay:0.455s}
+.c8{animation-delay:0.520s}
+.c9{animation-delay:0.585s}
+.c10{animation-delay:0.650s}
+.c11{animation-delay:0.715s}
+.c12{animation-delay:0.780s}
+.c13{animation-delay:0.845s}
+.c14{animation-delay:0.910s}
+.c15{animation-delay:0.975s}
+.c16{animation-delay:1.040s}
+.c17{animation-delay:1.105s}
+.c18{animation-delay:1.170s}
+.c19{animation-delay:1.235s}
+.c20{animation-delay:1.300s}
+.c21{animation-delay:1.365s}
+.c22{animation-delay:1.430s}
+.c23{animation-delay:1.495s}
+.c24{animation-delay:1.560s}
+.c25{animation-delay:1.625s}
+.c26{animation-delay:1.690s}
+.c27{animation-delay:1.755s}
+.c28{animation-delay:1.820s}
+.c29{animation-delay:1.885s}
+.c30{animation-delay:1.950s}
+.c31{animation-delay:2.015s}
+.c32{animation-delay:2.080s}
+.c33{animation-delay:2.145s}
+.c34{animation-delay:2.210s}
+.c35{animation-delay:2.275s}
+.c36{animation-delay:2.340s}
+.c37{animation-delay:2.405s}
+.c38{animation-delay:2.470s}
+.c39{animation-delay:2.535s}
+.c40{animation-delay:2.600s}
+.c41{animation-delay:2.665s}
+.c42{animation-delay:2.730s}
+.c43{animation-delay:2.795s}
+.c44{animation-delay:2.860s}
+.c45{animation-delay:2.925s}
+.c46{animation-delay:2.990s}
+  .echo{fill:#b15fe4;opacity:0;animation:afterimage 10.4s steps(1,end) infinite}
+  @keyframes signal{
+    0%,3%,14%,100%{fill:#165a72;opacity:1}
+    5%,7%{fill:#00b9a8;opacity:1}
+    9%{fill:#7e43d3;opacity:1}
+    11%{fill:#3597c4;opacity:1}
+  }
+  @keyframes stutter{
+    0%,87%,90%,100%{transform:translateX(0)}
+    87.5%{transform:translateX(-2px)}
+    88%{transform:translateX(2px)}
+    88.5%{transform:translateX(-1px)}
+    89%{transform:translateX(0)}
+  }
+  @keyframes afterimage{
+    0%,87%,90%,100%{opacity:0;transform:translate(0,0)}
+    87.5%{opacity:.25;transform:translate(3px,-1px)}
+    88%{opacity:0}
+    88.5%{opacity:.28;transform:translate(-3px,1px)}
+    89%{opacity:0}
+  }
+  @media(prefers-color-scheme:dark){
+    .ascii{fill:#b4fff4}
+    .echo{fill:#ea87ff}
+    @keyframes signal{
+      0%,3%,14%,100%{fill:#b4fff4;opacity:1}
+      5%,7%{fill:#fffdf1;opacity:1}
+      9%{fill:#eaa9ff;opacity:1}
+      11%{fill:#6ddfff;opacity:1}
+    }
+  }
+  @media(prefers-reduced-motion:reduce){.ink,.row,.echo{animation:none}.echo{opacity:0}}
 </style>
-<g class="wordmark">
-  <text x="84" y="44" xml:space="preserve">
-    <tspan x="84"> ____  ____  ___ ____  __  __ _____ _____ _  __</tspan>
-    <tspan x="84" dy="25">|  _ \|  _ \|_ _/ ___||  \/  |_   _| ____| |/ /</tspan>
-    <tspan x="84" dy="25">| |_) | |_) || |\___ \| |\/| | | | |  _| | ' / </tspan>
-    <tspan x="84" dy="25">|  __/|  _ &lt; | | ___) | |  | | | | | |___| . \ </tspan>
-    <tspan x="84" dy="25">|_|   |_| \_\___|____/|_|  |_| |_| |_____|_|\_\</tspan>
-  </text>
+<g class="echo" aria-hidden="true">
+<text x="20" y="35" xml:space="preserve"> ____  ____  ___ ____  __  __ _____ _____ _  __</text>
+<text x="20" y="65" xml:space="preserve">|  _ \|  _ \|_ _/ ___||  \/  |_   _| ____| |/ /</text>
+<text x="20" y="95" xml:space="preserve">| |_) | |_) || |\___ \| |\/| | | | |  _| | ' / </text>
+<text x="20" y="125" xml:space="preserve">|  __/|  _ &lt; | | ___) | |  | | | | | |___| . \ </text>
+<text x="20" y="155" xml:space="preserve">|_|   |_| \_\___|____/|_|  |_| |_| |_____|_|\_\</text>
 </g>
-<text class="caption" x="380" y="182" text-anchor="middle">+ PLAY  /  BUILD  /  SHARE +</text>
-<g class="bob">
-  <g class="ascii frame idle">
-  <text x="150" y="210" xml:space="preserve">
-    <tspan x="150">                     /\</tspan>
-    <tspan x="150" dy="18">                    /++\</tspan>
-    <tspan x="150" dy="18">                   /____\</tspan>
-    <tspan x="150" dy="18">           .------/------\------.</tspan>
-    <tspan x="150" dy="18">        __/ [::] |  o  o  | (o)  \__</tspan>
-    <tspan x="150" dy="18">       /         |   u    |         \</tspan>
-    <tspan x="150" dy="18">       \_________+--------+_________/</tspan>
-    <tspan x="150" dy="18">                 | [ P ]  |</tspan>
-    <tspan x="150" dy="18">                 +--------+</tspan>
-    <tspan x="150" dy="18">                  /|    |\</tspan>
-    <tspan x="150" dy="18">                 /_|____|_\</tspan>
-    <tspan x="150" dy="18">               [ STANDBY ]</tspan>
-  </text>
-  </g>
-  <g class="ascii frame play">
-  <text x="150" y="210" xml:space="preserve">
-    <tspan x="150">            *        /\         *</tspan>
-    <tspan x="150" dy="18">                    /^^\</tspan>
-    <tspan x="150" dy="18">                   /____\</tspan>
-    <tspan x="150" dy="18">           .------/------\------.</tspan>
-    <tspan x="150" dy="18">      \o/__/ [&gt;&gt;] |  ^  ^  | (*)  \__\o/</tspan>
-    <tspan x="150" dy="18">       /         |  \_/   |         \</tspan>
-    <tspan x="150" dy="18">       \_________+--------+_________/</tspan>
-    <tspan x="150" dy="18">                 | [ P ]  |</tspan>
-    <tspan x="150" dy="18">                 +--------+</tspan>
-    <tspan x="150" dy="18">                  /|    |\</tspan>
-    <tspan x="150" dy="18">                 /_|____|_\</tspan>
-    <tspan x="150" dy="18">               [ PLAY MODE ]</tspan>
-  </text>
-  </g>
-  <g class="ascii frame build">
-  <text x="150" y="210" xml:space="preserve">
-    <tspan x="150">              +      /\     +</tspan>
-    <tspan x="150" dy="18">                    /##\</tspan>
-    <tspan x="150" dy="18">                   /____\</tspan>
-    <tspan x="150" dy="18">           .------/------\------.</tspan>
-    <tspan x="150" dy="18">        __/ [++] |  -  -  | (.)  \__</tspan>
-    <tspan x="150" dy="18">       /         |   _    |         \</tspan>
-    <tspan x="150" dy="18">       \_________+--------+_________/</tspan>
-    <tspan x="150" dy="18">                 | [ P ]  |</tspan>
-    <tspan x="150" dy="18">                 +--------+</tspan>
-    <tspan x="150" dy="18">                  /|    |\</tspan>
-    <tspan x="150" dy="18">                 /_|____|_\</tspan>
-    <tspan x="150" dy="18">               [ BUILDING ]</tspan>
-  </text>
-  </g>
-  <g class="ascii frame share">
-  <text x="150" y="210" xml:space="preserve">
-    <tspan x="150">          .     *   /\   *     .</tspan>
-    <tspan x="150" dy="18">                    /&lt;&gt;\</tspan>
-    <tspan x="150" dy="18">                   /____\</tspan>
-    <tspan x="150" dy="18">           .------/------\------.</tspan>
-    <tspan x="150" dy="18">      \o/__/ [::] |  *  *  | (o)  \__\o/</tspan>
-    <tspan x="150" dy="18">       /         |   w    |         \</tspan>
-    <tspan x="150" dy="18">       \_________+--------+_________/</tspan>
-    <tspan x="150" dy="18">                 | [ P ]  |</tspan>
-    <tspan x="150" dy="18">                 +--------+</tspan>
-    <tspan x="150" dy="18">                  /|    |\</tspan>
-    <tspan x="150" dy="18">                 /_|____|_\</tspan>
-    <tspan x="150" dy="18">               [ SHARE IT ]</tspan>
-  </text>
-  </g>
+<g class="ascii">
+<text class="row row-0" x="20" y="35" xml:space="preserve"> <tspan class="ink c1">_</tspan><tspan class="ink c2">_</tspan><tspan class="ink c3">_</tspan><tspan class="ink c4">_</tspan>  <tspan class="ink c7">_</tspan><tspan class="ink c8">_</tspan><tspan class="ink c9">_</tspan><tspan class="ink c10">_</tspan>  <tspan class="ink c13">_</tspan><tspan class="ink c14">_</tspan><tspan class="ink c15">_</tspan> <tspan class="ink c17">_</tspan><tspan class="ink c18">_</tspan><tspan class="ink c19">_</tspan><tspan class="ink c20">_</tspan>  <tspan class="ink c23">_</tspan><tspan class="ink c24">_</tspan>  <tspan class="ink c27">_</tspan><tspan class="ink c28">_</tspan> <tspan class="ink c30">_</tspan><tspan class="ink c31">_</tspan><tspan class="ink c32">_</tspan><tspan class="ink c33">_</tspan><tspan class="ink c34">_</tspan> <tspan class="ink c36">_</tspan><tspan class="ink c37">_</tspan><tspan class="ink c38">_</tspan><tspan class="ink c39">_</tspan><tspan class="ink c40">_</tspan> <tspan class="ink c42">_</tspan>  <tspan class="ink c45">_</tspan><tspan class="ink c46">_</tspan></text>
+<text class="row row-1" x="20" y="65" xml:space="preserve"><tspan class="ink c0">|</tspan>  <tspan class="ink c3">_</tspan> <tspan class="ink c5">\</tspan><tspan class="ink c6">|</tspan>  <tspan class="ink c9">_</tspan> <tspan class="ink c11">\</tspan><tspan class="ink c12">|</tspan><tspan class="ink c13">_</tspan> <tspan class="ink c15">_</tspan><tspan class="ink c16">/</tspan> <tspan class="ink c18">_</tspan><tspan class="ink c19">_</tspan><tspan class="ink c20">_</tspan><tspan class="ink c21">|</tspan><tspan class="ink c22">|</tspan>  <tspan class="ink c25">\</tspan><tspan class="ink c26">/</tspan>  <tspan class="ink c29">|</tspan><tspan class="ink c30">_</tspan>   <tspan class="ink c34">_</tspan><tspan class="ink c35">|</tspan> <tspan class="ink c37">_</tspan><tspan class="ink c38">_</tspan><tspan class="ink c39">_</tspan><tspan class="ink c40">_</tspan><tspan class="ink c41">|</tspan> <tspan class="ink c43">|</tspan><tspan class="ink c44">/</tspan> <tspan class="ink c46">/</tspan></text>
+<text class="row row-2" x="20" y="95" xml:space="preserve"><tspan class="ink c0">|</tspan> <tspan class="ink c2">|</tspan><tspan class="ink c3">_</tspan><tspan class="ink c4">)</tspan> <tspan class="ink c6">|</tspan> <tspan class="ink c8">|</tspan><tspan class="ink c9">_</tspan><tspan class="ink c10">)</tspan> <tspan class="ink c12">|</tspan><tspan class="ink c13">|</tspan> <tspan class="ink c15">|</tspan><tspan class="ink c16">\</tspan><tspan class="ink c17">_</tspan><tspan class="ink c18">_</tspan><tspan class="ink c19">_</tspan> <tspan class="ink c21">\</tspan><tspan class="ink c22">|</tspan> <tspan class="ink c24">|</tspan><tspan class="ink c25">\</tspan><tspan class="ink c26">/</tspan><tspan class="ink c27">|</tspan> <tspan class="ink c29">|</tspan> <tspan class="ink c31">|</tspan> <tspan class="ink c33">|</tspan> <tspan class="ink c35">|</tspan>  <tspan class="ink c38">_</tspan><tspan class="ink c39">|</tspan> <tspan class="ink c41">|</tspan> <tspan class="ink c43">'</tspan> <tspan class="ink c45">/</tspan> </text>
+<text class="row row-3" x="20" y="125" xml:space="preserve"><tspan class="ink c0">|</tspan>  <tspan class="ink c3">_</tspan><tspan class="ink c4">_</tspan><tspan class="ink c5">/</tspan><tspan class="ink c6">|</tspan>  <tspan class="ink c9">_</tspan> <tspan class="ink c11">&lt;</tspan> <tspan class="ink c13">|</tspan> <tspan class="ink c15">|</tspan> <tspan class="ink c17">_</tspan><tspan class="ink c18">_</tspan><tspan class="ink c19">_</tspan><tspan class="ink c20">)</tspan> <tspan class="ink c22">|</tspan> <tspan class="ink c24">|</tspan>  <tspan class="ink c27">|</tspan> <tspan class="ink c29">|</tspan> <tspan class="ink c31">|</tspan> <tspan class="ink c33">|</tspan> <tspan class="ink c35">|</tspan> <tspan class="ink c37">|</tspan><tspan class="ink c38">_</tspan><tspan class="ink c39">_</tspan><tspan class="ink c40">_</tspan><tspan class="ink c41">|</tspan> <tspan class="ink c43">.</tspan> <tspan class="ink c45">\</tspan> </text>
+<text class="row row-4" x="20" y="155" xml:space="preserve"><tspan class="ink c0">|</tspan><tspan class="ink c1">_</tspan><tspan class="ink c2">|</tspan>   <tspan class="ink c6">|</tspan><tspan class="ink c7">_</tspan><tspan class="ink c8">|</tspan> <tspan class="ink c10">\</tspan><tspan class="ink c11">_</tspan><tspan class="ink c12">\</tspan><tspan class="ink c13">_</tspan><tspan class="ink c14">_</tspan><tspan class="ink c15">_</tspan><tspan class="ink c16">|</tspan><tspan class="ink c17">_</tspan><tspan class="ink c18">_</tspan><tspan class="ink c19">_</tspan><tspan class="ink c20">_</tspan><tspan class="ink c21">/</tspan><tspan class="ink c22">|</tspan><tspan class="ink c23">_</tspan><tspan class="ink c24">|</tspan>  <tspan class="ink c27">|</tspan><tspan class="ink c28">_</tspan><tspan class="ink c29">|</tspan> <tspan class="ink c31">|</tspan><tspan class="ink c32">_</tspan><tspan class="ink c33">|</tspan> <tspan class="ink c35">|</tspan><tspan class="ink c36">_</tspan><tspan class="ink c37">_</tspan><tspan class="ink c38">_</tspan><tspan class="ink c39">_</tspan><tspan class="ink c40">_</tspan><tspan class="ink c41">|</tspan><tspan class="ink c42">_</tspan><tspan class="ink c43">|</tspan><tspan class="ink c44">\</tspan><tspan class="ink c45">_</tspan><tspan class="ink c46">\</tspan></text>
 </g>
-<text class="caption" x="380" y="436" text-anchor="middle">// COMMUNITY-FIRST GAME TOOLS //</text>
 </svg>
