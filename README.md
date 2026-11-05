@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/prismtek-ascii.svg" alt="Animated ASCII PRISMTEK banner — community-first game tools" width="100%" />
+</p>
+
 # Prismtek
 
 **Public game tools, addons, and companion projects from Prismtek.**
