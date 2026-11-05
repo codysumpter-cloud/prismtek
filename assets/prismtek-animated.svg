@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 205" role="img" aria-labelledby="title desc" style="background:transparent">
+<title id="title">PRISMTEK</title>
+<desc id="desc">PRISMTEK spelled entirely in ASCII characters. Its letterforms cycle between four terminal character sets while a cyan-to-violet signal moves across the letters.</desc>
+<style>
+  .frame { opacity:0; animation-duration:10s; animation-iteration-count:infinite; animation-timing-function:steps(1,end); }
+  .base { opacity:1; animation-name:frameBase; }
+  .signal { animation-name:frameSignal; }
+  .power { animation-name:framePower; }
+  .glitch { animation-name:frameGlitch; }
+  .line { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace; font-size:20px; font-weight:800; letter-spacing:0; white-space:pre; fill:#165d75; }
+  .glyph { animation:colorWave 3.6s ease-in-out infinite; }
+  .c0 {animation-delay:0s}.c1{animation-delay:.17s}.c2{animation-delay:.34s}.c3{animation-delay:.51s}
+  .c4 {animation-delay:.68s}.c5{animation-delay:.85s}.c6{animation-delay:1.02s}.c7{animation-delay:1.19s}
+  @keyframes frameBase {0%,39.99%{opacity:1}40%,100%{opacity:0}}
+  @keyframes frameSignal {0%,39.99%{opacity:0}40%,59.99%{opacity:1}60%,100%{opacity:0}}
+  @keyframes framePower {0%,59.99%{opacity:0}60%,84.99%{opacity:1}85%,100%{opacity:0}}
+  @keyframes frameGlitch {0%,84.99%{opacity:0}85%,99.99%{opacity:1}100%{opacity:0}}
+  @keyframes colorWave {
+    0%,42%,100% {fill:#165d75;opacity:1}
+    12% {fill:#16adae;opacity:1}
+    21% {fill:#9868d4;opacity:1}
+    31% {fill:#3988bb;opacity:1}
+  }
+  @media (prefers-color-scheme:dark) {
+    .line {fill:#c9fff0}
+    @keyframes colorWave {
+      0%,42%,100% {fill:#c9fff0;opacity:1}
+      12% {fill:#67f5e0;opacity:1}
+      21% {fill:#e0afff;opacity:1}
+      31% {fill:#80bcff;opacity:1}
+    }
+  }
+  @media (prefers-reduced-motion:reduce) {
+    .frame,.glyph {animation:none}
+    .frame {opacity:0}
+    .base {opacity:1}
+  }
+</style>
+  <g class="frame base">
+    <text class="line" x="44" y="36" xml:space="preserve"><tspan class="glyph c0">#### </tspan>  <tspan class="glyph c1">#### </tspan>  <tspan class="glyph c2">#####</tspan>  <tspan class="glyph c3"> ####</tspan>  <tspan class="glyph c4">#   #</tspan>  <tspan class="glyph c5">#####</tspan>  <tspan class="glyph c6">#####</tspan>  <tspan class="glyph c7">#   #</tspan></text>
+    <text class="line" x="44" y="60" xml:space="preserve"><tspan class="glyph c0">#   #</tspan>  <tspan class="glyph c1">#   #</tspan>  <tspan class="glyph c2">  #  </tspan>  <tspan class="glyph c3">#    </tspan>  <tspan class="glyph c4">## ##</tspan>  <tspan class="glyph c5">  #  </tspan>  <tspan class="glyph c6">#    </tspan>  <tspan class="glyph c7">#  # </tspan></text>
+    <text class="line" x="44" y="84" xml:space="preserve"><tspan class="glyph c0">#   #</tspan>  <tspan class="glyph c1">#   #</tspan>  <tspan class="glyph c2">  #  </tspan>  <tspan class="glyph c3">#    </tspan>  <tspan class="glyph c4"># # #</tspan>  <tspan class="glyph c5">  #  </tspan>  <tspan class="glyph c6">#    </tspan>  <tspan class="glyph c7"># #  </tspan></text>
+    <text class="line" x="44" y="108" xml:space="preserve"><tspan class="glyph c0">#### </tspan>  <tspan class="glyph c1">#### </tspan>  <tspan class="glyph c2">  #  </tspan>  <tspan class="glyph c3"> ### </tspan>  <tspan class="glyph c4">#   #</tspan>  <tspan class="glyph c5">  #  </tspan>  <tspan class="glyph c6">#### </tspan>  <tspan class="glyph c7">##   </tspan></text>
+    <text class="line" x="44" y="132" xml:space="preserve"><tspan class="glyph c0">#    </tspan>  <tspan class="glyph c1"># #  </tspan>  <tspan class="glyph c2">  #  </tspan>  <tspan class="glyph c3">    #</tspan>  <tspan class="glyph c4">#   #</tspan>  <tspan class="glyph c5">  #  </tspan>  <tspan class="glyph c6">#    </tspan>  <tspan class="glyph c7"># #  </tspan></text>
+    <text class="line" x="44" y="156" xml:space="preserve"><tspan class="glyph c0">#    </tspan>  <tspan class="glyph c1">#  # </tspan>  <tspan class="glyph c2">  #  </tspan>  <tspan class="glyph c3">    #</tspan>  <tspan class="glyph c4">#   #</tspan>  <tspan class="glyph c5">  #  </tspan>  <tspan class="glyph c6">#    </tspan>  <tspan class="glyph c7">#  # </tspan></text>
+    <text class="line" x="44" y="180" xml:space="preserve"><tspan class="glyph c0">#    </tspan>  <tspan class="glyph c1">#   #</tspan>  <tspan class="glyph c2">#####</tspan>  <tspan class="glyph c3">#### </tspan>  <tspan class="glyph c4">#   #</tspan>  <tspan class="glyph c5">  #  </tspan>  <tspan class="glyph c6">#####</tspan>  <tspan class="glyph c7">#   #</tspan></text>
+  </g>
+  <g class="frame signal">
+    <text class="line" x="44" y="36" xml:space="preserve"><tspan class="glyph c0">++++ </tspan>  <tspan class="glyph c1">++++ </tspan>  <tspan class="glyph c2">+++++</tspan>  <tspan class="glyph c3"> ++++</tspan>  <tspan class="glyph c4">+   +</tspan>  <tspan class="glyph c5">+++++</tspan>  <tspan class="glyph c6">+++++</tspan>  <tspan class="glyph c7">+   +</tspan></text>
+    <text class="line" x="44" y="60" xml:space="preserve"><tspan class="glyph c0">+   +</tspan>  <tspan class="glyph c1">+   +</tspan>  <tspan class="glyph c2">  +  </tspan>  <tspan class="glyph c3">+    </tspan>  <tspan class="glyph c4">++ ++</tspan>  <tspan class="glyph c5">  +  </tspan>  <tspan class="glyph c6">+    </tspan>  <tspan class="glyph c7">+  + </tspan></text>
+    <text class="line" x="44" y="84" xml:space="preserve"><tspan class="glyph c0">+   +</tspan>  <tspan class="glyph c1">+   +</tspan>  <tspan class="glyph c2">  +  </tspan>  <tspan class="glyph c3">+    </tspan>  <tspan class="glyph c4">+ + +</tspan>  <tspan class="glyph c5">  +  </tspan>  <tspan class="glyph c6">+    </tspan>  <tspan class="glyph c7">+ +  </tspan></text>
+    <text class="line" x="44" y="108" xml:space="preserve"><tspan class="glyph c0">++++ </tspan>  <tspan class="glyph c1">++++ </tspan>  <tspan class="glyph c2">  +  </tspan>  <tspan class="glyph c3"> +++ </tspan>  <tspan class="glyph c4">+   +</tspan>  <tspan class="glyph c5">  +  </tspan>  <tspan class="glyph c6">++++ </tspan>  <tspan class="glyph c7">++   </tspan></text>
+    <text class="line" x="44" y="132" xml:space="preserve"><tspan class="glyph c0">+    </tspan>  <tspan class="glyph c1">+ +  </tspan>  <tspan class="glyph c2">  +  </tspan>  <tspan class="glyph c3">    +</tspan>  <tspan class="glyph c4">+   +</tspan>  <tspan class="glyph c5">  +  </tspan>  <tspan class="glyph c6">+    </tspan>  <tspan class="glyph c7">+ +  </tspan></text>
+    <text class="line" x="44" y="156" xml:space="preserve"><tspan class="glyph c0">+    </tspan>  <tspan class="glyph c1">+  + </tspan>  <tspan class="glyph c2">  +  </tspan>  <tspan class="glyph c3">    +</tspan>  <tspan class="glyph c4">+   +</tspan>  <tspan class="glyph c5">  +  </tspan>  <tspan class="glyph c6">+    </tspan>  <tspan class="glyph c7">+  + </tspan></text>
+    <text class="line" x="44" y="180" xml:space="preserve"><tspan class="glyph c0">+    </tspan>  <tspan class="glyph c1">+   +</tspan>  <tspan class="glyph c2">+++++</tspan>  <tspan class="glyph c3">++++ </tspan>  <tspan class="glyph c4">+   +</tspan>  <tspan class="glyph c5">  +  </tspan>  <tspan class="glyph c6">+++++</tspan>  <tspan class="glyph c7">+   +</tspan></text>
+  </g>
+  <g class="frame power">
+    <text class="line" x="44" y="36" xml:space="preserve"><tspan class="glyph c0">@@@@ </tspan>  <tspan class="glyph c1">@@@@ </tspan>  <tspan class="glyph c2">@@@@@</tspan>  <tspan class="glyph c3"> @@@@</tspan>  <tspan class="glyph c4">@   @</tspan>  <tspan class="glyph c5">@@@@@</tspan>  <tspan class="glyph c6">@@@@@</tspan>  <tspan class="glyph c7">@   @</tspan></text>
+    <text class="line" x="44" y="60" xml:space="preserve"><tspan class="glyph c0">@   @</tspan>  <tspan class="glyph c1">@   @</tspan>  <tspan class="glyph c2">  @  </tspan>  <tspan class="glyph c3">@    </tspan>  <tspan class="glyph c4">@@ @@</tspan>  <tspan class="glyph c5">  @  </tspan>  <tspan class="glyph c6">@    </tspan>  <tspan class="glyph c7">@  @ </tspan></text>
+    <text class="line" x="44" y="84" xml:space="preserve"><tspan class="glyph c0">@   @</tspan>  <tspan class="glyph c1">@   @</tspan>  <tspan class="glyph c2">  @  </tspan>  <tspan class="glyph c3">@    </tspan>  <tspan class="glyph c4">@ @ @</tspan>  <tspan class="glyph c5">  @  </tspan>  <tspan class="glyph c6">@    </tspan>  <tspan class="glyph c7">@ @  </tspan></text>
+    <text class="line" x="44" y="108" xml:space="preserve"><tspan class="glyph c0">@@@@ </tspan>  <tspan class="glyph c1">@@@@ </tspan>  <tspan class="glyph c2">  @  </tspan>  <tspan class="glyph c3"> @@@ </tspan>  <tspan class="glyph c4">@   @</tspan>  <tspan class="glyph c5">  @  </tspan>  <tspan class="glyph c6">@@@@ </tspan>  <tspan class="glyph c7">@@   </tspan></text>
+    <text class="line" x="44" y="132" xml:space="preserve"><tspan class="glyph c0">@    </tspan>  <tspan class="glyph c1">@ @  </tspan>  <tspan class="glyph c2">  @  </tspan>  <tspan class="glyph c3">    @</tspan>  <tspan class="glyph c4">@   @</tspan>  <tspan class="glyph c5">  @  </tspan>  <tspan class="glyph c6">@    </tspan>  <tspan class="glyph c7">@ @  </tspan></text>
+    <text class="line" x="44" y="156" xml:space="preserve"><tspan class="glyph c0">@    </tspan>  <tspan class="glyph c1">@  @ </tspan>  <tspan class="glyph c2">  @  </tspan>  <tspan class="glyph c3">    @</tspan>  <tspan class="glyph c4">@   @</tspan>  <tspan class="glyph c5">  @  </tspan>  <tspan class="glyph c6">@    </tspan>  <tspan class="glyph c7">@  @ </tspan></text>
+    <text class="line" x="44" y="180" xml:space="preserve"><tspan class="glyph c0">@    </tspan>  <tspan class="glyph c1">@   @</tspan>  <tspan class="glyph c2">@@@@@</tspan>  <tspan class="glyph c3">@@@@ </tspan>  <tspan class="glyph c4">@   @</tspan>  <tspan class="glyph c5">  @  </tspan>  <tspan class="glyph c6">@@@@@</tspan>  <tspan class="glyph c7">@   @</tspan></text>
+  </g>
+  <g class="frame glitch">
+    <text class="line" x="44" y="36" xml:space="preserve"><tspan class="glyph c0">%%%% </tspan>  <tspan class="glyph c1">%%%% </tspan>  <tspan class="glyph c2">%%%%%</tspan>  <tspan class="glyph c3"> %%%%</tspan>  <tspan class="glyph c4">%   %</tspan>  <tspan class="glyph c5">%%%%%</tspan>  <tspan class="glyph c6">%%%%%</tspan>  <tspan class="glyph c7">%   %</tspan></text>
+    <text class="line" x="44" y="60" xml:space="preserve"><tspan class="glyph c0">%   %</tspan>  <tspan class="glyph c1">%   %</tspan>  <tspan class="glyph c2">  %  </tspan>  <tspan class="glyph c3">%    </tspan>  <tspan class="glyph c4">%% %%</tspan>  <tspan class="glyph c5">  %  </tspan>  <tspan class="glyph c6">%    </tspan>  <tspan class="glyph c7">%  % </tspan></text>
+    <text class="line" x="44" y="84" xml:space="preserve"><tspan class="glyph c0">%   %</tspan>  <tspan class="glyph c1">%   %</tspan>  <tspan class="glyph c2">  %  </tspan>  <tspan class="glyph c3">%    </tspan>  <tspan class="glyph c4">% % %</tspan>  <tspan class="glyph c5">  %  </tspan>  <tspan class="glyph c6">%    </tspan>  <tspan class="glyph c7">% %  </tspan></text>
+    <text class="line" x="44" y="108" xml:space="preserve"><tspan class="glyph c0">%%%% </tspan>  <tspan class="glyph c1">%%%% </tspan>  <tspan class="glyph c2">  %  </tspan>  <tspan class="glyph c3"> %%% </tspan>  <tspan class="glyph c4">%   %</tspan>  <tspan class="glyph c5">  %  </tspan>  <tspan class="glyph c6">%%%% </tspan>  <tspan class="glyph c7">%%   </tspan></text>
+    <text class="line" x="44" y="132" xml:space="preserve"><tspan class="glyph c0">%    </tspan>  <tspan class="glyph c1">% %  </tspan>  <tspan class="glyph c2">  %  </tspan>  <tspan class="glyph c3">    %</tspan>  <tspan class="glyph c4">%   %</tspan>  <tspan class="glyph c5">  %  </tspan>  <tspan class="glyph c6">%    </tspan>  <tspan class="glyph c7">% %  </tspan></text>
+    <text class="line" x="44" y="156" xml:space="preserve"><tspan class="glyph c0">%    </tspan>  <tspan class="glyph c1">%  % </tspan>  <tspan class="glyph c2">  %  </tspan>  <tspan class="glyph c3">    %</tspan>  <tspan class="glyph c4">%   %</tspan>  <tspan class="glyph c5">  %  </tspan>  <tspan class="glyph c6">%    </tspan>  <tspan class="glyph c7">%  % </tspan></text>
+    <text class="line" x="44" y="180" xml:space="preserve"><tspan class="glyph c0">%    </tspan>  <tspan class="glyph c1">%   %</tspan>  <tspan class="glyph c2">%%%%%</tspan>  <tspan class="glyph c3">%%%% </tspan>  <tspan class="glyph c4">%   %</tspan>  <tspan class="glyph c5">  %  </tspan>  <tspan class="glyph c6">%%%%%</tspan>  <tspan class="glyph c7">%   %</tspan></text>
+  </g>
+</svg>
